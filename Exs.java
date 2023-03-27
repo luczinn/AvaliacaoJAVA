@@ -96,6 +96,19 @@ public class Exs {
             System.out.println("SUBTOTAL = R$" + subTotal);
             System.out.println("DESCONTO = " + desconto);
             System.out.println("VALOR FINAL = R$" + valorFinal);
+        }else{
+            valorFinal = subTotal-(subTotal/10);
+            System.out.println("==========================================================");
+            System.out.println("=====================CAIXA DE MERCADO=====================");
+            System.out.println("==========================================================");
+            System.out.println(" ");
+            System.out.println("Morango " + pesoMorango + "Kg = " + "R$" + precoMorango);
+            System.out.println("Maçã " + pesoMacas + "Kg = " + "R$" + precoMacas);
+            System.out.println("Banana " + pesoBananas + "Kg = " + "R$" + precoBananas);
+            System.out.println("----------------------------------------------------------");
+            System.out.println("SUBTOTAL = R$" + subTotal);
+            System.out.println("DESCONTO = " + desconto);
+            System.out.println("VALOR FINAL = R$" + valorFinal);
         }
     }
 }
